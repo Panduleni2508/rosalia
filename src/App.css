@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url("../public/background.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+
+.app-container {
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+
+.header {
+  font-size: 3rem;
+  font-family: 'Great Vibes', cursive;
+}
+
+.message {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.heart {
+  font-size: 3rem;
+  margin-top: 20px;
+}
+
+.media-container {
+  margin-top: 30px;
+}
+
+.media {
+  width: 80%;
+  max-width: 400px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  margin: 15px 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.media:hover {
+  transform: scale(1.05);
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.yes-button, .no-button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.yes-button {
+  background-color: #ff4d6d;
+  color: white;
+}
+
+.no-button {
+  background-color: #444;
+  color: white;
+}
+
+.yes-button:hover {
+  background-color: #d63384;
+}
+
+.no-button:hover {
+  background-color: #222;
+}
+
+.sad-message {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  color: #ffcccb;
+  font-style: italic;
+}
