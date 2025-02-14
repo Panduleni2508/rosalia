@@ -69,7 +69,7 @@ function App() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1, delay: 1 }}
       >
-        <img src="/fav-pic.jpeg" alt="Us together" className="media" />
+        {/* <img src="/fav-pic.jpeg" alt="Us together" className="media" /> */}
       </motion.div>
 
       {/* Buttons for Response */}
