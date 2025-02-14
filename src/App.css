@@ -9,28 +9,40 @@ body {
   color: white;
 }
 
-
 .app-container {
   text-align: center;
   padding: 50px;
   color: white;
 }
 
+/* Common Styles for Header and Message */
+.header, .message {
+  color: black; /* Set text color to black */
+  font-family: 'Poppins', sans-serif; /* Use the same font */
+  background-color: white; /* Set background color to white */
+  padding: 10px 20px; /* Add some padding for a cleaner look */
+  border-radius: 10px; /* Round the corners for a more appealing look */
+}
+
+/* Animated header */
 .header {
   font-size: 3rem;
   font-family: 'Great Vibes', cursive;
 }
 
+/* Animated message */
 .message {
   font-size: 1.5rem;
   margin-top: 10px;
 }
 
+/* Heart animation */
 .heart {
   font-size: 3rem;
   margin-top: 20px;
 }
 
+/* Image and Video Section */
 .media-container {
   margin-top: 30px;
 }
@@ -48,6 +60,7 @@ body {
   transform: scale(1.05);
 }
 
+/* Buttons for Response */
 .buttons {
   margin-top: 20px;
 }
@@ -80,9 +93,19 @@ body {
   background-color: #222;
 }
 
+/* Styles for the invitation and sad messages */
+.invitation-message, .sad-message {
+  background-color: white; /* Set white background */
+  color: black; /* Set text color to black */
+  font-family: 'Poppins', sans-serif; /* Same font for consistency */
+  padding: 10px 20px; /* Add padding */
+  border-radius: 10px; /* Round the corners */
+  font-size: 1.2rem; /* Adjust font size */
+  margin-top: 20px; /* Space above the messages */
+}
+
+/* Sad message styling */
 .sad-message {
-  font-size: 1.2rem;
-  margin-top: 20px;
-  color: #ffcccb;
-  font-style: italic;
+  font-style: italic; /* Keep the italicized style for sad messages */
+  color: #ffcccb; /* Optional, to keep a soft sad tone */
 }
