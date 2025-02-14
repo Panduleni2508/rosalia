@@ -30,7 +30,14 @@ function App() {
   return (
     <div className="app-container">
       {/* Custom Confetti when "Yes" is clicked */}
-      {showConfetti && <Confetti width={width} height={height} numberOfPieces={300} colors={["#ff69b4", "#ff0000", "#ff1493", "#ff4500"]} />}
+      {showConfetti && (
+        <Confetti
+          width={width}
+          height={height}
+          numberOfPieces={300}
+          colors={["#ff69b4", "#ff0000", "#ff1493", "#ff4500"]}
+        />
+      )}
 
       {/* Animated header */}
       <motion.h1
@@ -49,8 +56,11 @@ function App() {
         transition={{ delay: 0.5, duration: 1.2 }}
         className="message"
       >
-        Spending time with you has been amazing, and I’d love to make even more special memories together.  
-        So… will you be my Valentine? 💖
+        Spending time with you has truly been a beautiful journey, one that has
+        filled my heart with warmth and joy. Every moment shared with you feels
+        like a cherished memory I want to hold onto forever. With all my heart,
+        I would love to create even more special memories together. Will you be
+        my Valentine, and continue this wonderful adventure with me? 💖
       </motion.p>
 
       {/* Heart animation */}
@@ -69,7 +79,7 @@ function App() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1, delay: 1 }}
       >
-        {/* <img src="/fav-pic.jpeg" alt="Us together" className="media" /> */}
+        <img src="/fav-pic.jpeg" alt="Us together" className="media" />
       </motion.div>
 
       {/* Buttons for Response */}
